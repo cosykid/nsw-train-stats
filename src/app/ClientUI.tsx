@@ -2,72 +2,91 @@
 
 import { useState } from "react";
 
-type ClientUIProps = {
-  byLine: Record<string, { station: Record<string, number[]> }>;
-  byStation: Record<string, { line: Record<string, number[]> }>;
-  routeMap: Record<string, string>;
-  stopMap: Record<string, string>;
+type DelayInfo = {
+  stationId: string;
+  stationName: string;
+  delays: number[];
 };
 
-export default function ClientUI({ byLine, byStation, routeMap, stopMap }: ClientUIProps) {
+type StationDelayInfo = {
+  lineId: string;
+  lineName: string;
+  delays: number[];
+};
+
+type ClientUIProps = {
+  stations: { id: string; name: string }[];
+  lines: { id: string; name: string }[];
+  lineDelays: Record<string, DelayInfo[]>;
+  stationDelays: Record<string, StationDelayInfo[]>;
+};
+
+export default function ClientUI({
+  stations,
+  lines,
+  lineDelays,
+  stationDelays,
+}: ClientUIProps) {
   const [selectedStation, setSelectedStation] = useState<string | null>(null);
   const [selectedLine, setSelectedLine] = useState<string | null>(null);
-
-  const allStations = Object.keys(byStation).map((id) => ({
-    id,
-    name: stopMap[id.toString()] || id,
-  }));
-
-  console.log('yo', allStations)
-
-  const allLines = Object.keys(byLine).map((id) => ({
-    id,
-    name: routeMap[id] || id,
-  }));
 
   return (
     <div className="space-y-8">
       <div className="flex gap-6">
         <div>
           <label className="block font-semibold mb-1">Choose a Station:</label>
-          <select className="border rounded p-2" onChange={(e) => setSelectedStation(e.target.value)}>
+          <select
+            className="border rounded p-2"
+            onChange={(e) => setSelectedStation(e.target.value || null)}
+          >
             <option value="">-- Select Station --</option>
-            {allStations.map((s) => (
-              <option key={s.id} value={s.id}>{s.name}</option>
+            {stations.map((s) => (
+              <option key={s.id} value={s.id}>
+                {s.name}
+              </option>
             ))}
           </select>
         </div>
         <div>
           <label className="block font-semibold mb-1">Choose a Line:</label>
-          <select className="border rounded p-2" onChange={(e) => setSelectedLine(e.target.value)}>
+          <select
+            className="border rounded p-2"
+            onChange={(e) => setSelectedLine(e.target.value || null)}
+          >
             <option value="">-- Select Line --</option>
-            {allLines.map((l) => (
-              <option key={l.id} value={l.id}>{l.name}</option>
+            {lines.map((l) => (
+              <option key={l.id} value={l.id}>
+                {l.name}
+              </option>
             ))}
           </select>
         </div>
       </div>
 
-      {selectedLine && (
+      {selectedLine && lineDelays[selectedLine] && (
         <div>
-          <h2 className="text-xl font-semibold mb-2">Delays for Line: {routeMap[selectedLine]}</h2>
+          <h2 className="text-xl font-semibold mb-2">
+            Delays for Line: {lines.find((l) => l.id === selectedLine)?.name}
+          </h2>
           <ul className="list-disc ml-4">
-            {Object.entries(byLine[selectedLine]?.station || {}).map(([stationId, delays]) => (
+            {lineDelays[selectedLine].map(({ stationId, stationName, delays }) => (
               <li key={stationId}>
-                {stopMap[stationId] || stationId}: [{delays.join(", ")}]
+                {stationName}: [{delays.join(", ")}]
               </li>
             ))}
           </ul>
         </div>
       )}
 
-      {selectedStation && (
+      {selectedStation && stationDelays[selectedStation] && (
         <div>
-          <h2 className="text-xl font-semibold mb-2">Delays at Station: {stopMap[selectedStation]}</h2>
+          <h2 className="text-xl font-semibold mb-2">
+            Delays at Station: {stations.find((s) => s.id === selectedStation)?.name}
+          </h2>
           <ul className="list-disc ml-4">
-            {Object.entries(byStation[selectedStation]?.line || {}).map(([lineId, delays]) => (
+            {stationDelays[selectedStation].map(({ lineId, lineName, delays }) => (
               <li key={lineId}>
-                {routeMap[lineId] || lineId}: [{delays.join(", ")}]
+                {lineName}: [{delays.join(", ")}]
               </li>
             ))}
           </ul>
