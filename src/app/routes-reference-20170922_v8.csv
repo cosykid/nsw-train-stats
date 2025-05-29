@@ -1,0 +1,155 @@
+route_id,agency_id,route_short_name,LongName,route_desc,route_type,STATUS,DIVA-ROUTE,DIRECTION
+APS_1b,Sydney Trains,T8,City Circle to Leppington via Airport,T8 Airport & South Line,2,INCLUDE,T8,OUT
+APS_1e,Sydney Trains,T8,City Circle to Leppington via Sydenham,T8 Airport & South Line,2,INCLUDE,T8,OUT
+APS_1f,Sydney Trains,T8,City Circle to Leppington via Sydenham,T8 Airport & South Line,2,INCLUDE,T8,OUT
+APS_1a,Sydney Trains,T8,City Circle to Macarthur via Airport,T8 Airport & South Line,2,INCLUDE,T8,OUT
+APS_1c,Sydney Trains,T8,City Circle to Macarthur via Sydenham,T8 Airport & South Line,2,INCLUDE,T8,OUT
+APS_1d,Sydney Trains,T8,City Circle to Macarthur via Sydenham,T8 Airport & South Line,2,INCLUDE,T8,OUT
+APS_2b,Sydney Trains,T8,Leppington to City Circle via Airport,T8 Airport & South Line,2,INCLUDE,T8,IN
+APS_2e,Sydney Trains,T8,Leppington to City Circle via Sydenham,T8 Airport & South Line,2,INCLUDE,T8,IN
+APS_2f,Sydney Trains,T8,Leppington to City Circle via Sydenham,T8 Airport & South Line,2,INCLUDE,T8,IN
+APS_2a,Sydney Trains,T8,Macarthur to City Circle via Airport,T8 Airport & South Line,2,INCLUDE,T8,IN
+APS_2c,Sydney Trains,T8,Macarthur to City Circle via Sydenham,T8 Airport & South Line,2,INCLUDE,T8,IN
+APS_2d,Sydney Trains,T8,Macarthur to City Circle via Sydenham,T8 Airport & South Line,2,INCLUDE,T8,IN
+BMT_2,NSWTrains,BMT,Bathurst and Lithgow to Sydney,Blue Mountains Line,2,INCLUDE,BMT,IN
+BMT_1,NSWTrains,BMT,Central to Lithgow and Bathurst,Blue Mountains Line,2,INCLUDE,BMT,OUT
+BNK_1a,Sydney Trains,T3,City Circle to Lidcombe via Bankstown,T3 Bankstown Line,2,INCLUDE,T3,OUT
+BNK_1b,Sydney Trains,T3,City Circle to Lidcombe via Bankstown,T3 Bankstown Line,2,INCLUDE,T3,OUT
+BNK_1d,Sydney Trains,T3,City Circle to Liverpool via Bankstown,T3 Bankstown Line,2,INCLUDE,T3,OUT
+BNK_1e,Sydney Trains,T3,City Circle to Liverpool via Bankstown,T3 Bankstown Line,2,INCLUDE,T3,OUT
+BNK_1f,Sydney Trains,T3,City Circle to Liverpool via Lidcombe,T3 Bankstown Line,2,INCLUDE,T3,OUT
+BNK_1g,Sydney Trains,T3,City Circle to Liverpool via Lidcombe,T3 Bankstown Line,2,INCLUDE,T3,OUT
+BNK_2a,Sydney Trains,T3,Lidcombe to City Circle via Bankstown,T3 Bankstown Line,2,INCLUDE,T3,IN
+BNK_2b,Sydney Trains,T3,Lidcombe to City Circle via Bankstown,T3 Bankstown Line,2,INCLUDE,T3,IN
+BNK_1h,Sydney Trains,T3,Lidcombe to Liverpool,T3 Bankstown Line,2,INCLUDE,T3,OUT
+BNK_2c,Sydney Trains,T3,Lidcombe to Regents Park,T3 Bankstown Line,2,INCLUDE,T3,OUT
+BNK_2d,Sydney Trains,T3,Liverpool to City Circle via Bankstown,T3 Bankstown Line,2,INCLUDE,T3,IN
+BNK_2e,Sydney Trains,T3,Liverpool to City Circle via Bankstown,T3 Bankstown Line,2,INCLUDE,T3,IN
+BNK_2f,Sydney Trains,T3,Liverpool to City Circle via Lidcombe,T3 Bankstown Line,2,INCLUDE,T3,IN
+BNK_2g,Sydney Trains,T3,Liverpool to City Circle via Lidcombe,T3 Bankstown Line,2,INCLUDE,T3,IN
+BNK_2h,Sydney Trains,T3,Liverpool to Lidcombe,T3 Bankstown Line,2,INCLUDE,T3,IN
+BNK_1c,Sydney Trains,T3,Regents Park to Lidcombe,T3 Bankstown Line,2,INCLUDE,T3,IN
+CCN_1b,NSWTrains,CCN,Central to Newcastle Interchange via North Shore,Central Coast & Newcastle Line,2,INCLUDE,CCN,OUT
+CCN_1c,NSWTrains,CCN,Central to Newcastle Interchange via Starthfield,Central Coast & Newcastle Line,2,INCLUDE,CCN,OUT
+CCN_1a,NSWTrains,CCN,Central to Newcastle Interchange via Strathfield,Central Coast & Newcastle Line,2,INCLUDE,CCN,OUT
+CCN_2b,NSWTrains,CCN,Newcastle Interchange to Central via North Shore,Central Coast & Newcastle Line,2,INCLUDE,CCN,IN
+CCN_2a,NSWTrains,CCN,Newcastle Interchange to Central via Strathfield,Central Coast & Newcastle Line,2,INCLUDE,CCN,IN
+CGF_2,Sydney Trains,T6,Carlingford to Clyde,T6 Carlingford Line,2,INCLUDE,T6,IN
+CGF_1,Sydney Trains,T6,Clyde to Carlingford,T6 Carlingford Line,2,INCLUDE,T6,OUT
+CMB_2d,Sydney Trains,T5,Campbelltown to Emu Plains,T5 Cumberland Line,2,INCLUDE,T5,OUT
+CMB_2c,Sydney Trains,T5,Campbelltown to Richmond,T5 Cumberland Line,2,INCLUDE,T5,IN
+CMB_1d,Sydney Trains,T5,Emu Plains to Campbelltown,T5 Cumberland Line,2,INCLUDE,T5,IN
+CMB_1b,Sydney Trains,T5,Emu Plains to Leppington,T5 Cumberland Line,2,INCLUDE,T5,IN
+CMB_2b,Sydney Trains,T5,Leppington to Emu Plains,T5 Cumberland Line,2,INCLUDE,T5,OUT
+CMB_2a,Sydney Trains,T5,Leppington to Richmond,T5 Cumberland Line,2,INCLUDE,T5,OUT
+CMB_1c,Sydney Trains,T5,Richmond to Campbelltown,T5 Cumberland Line,2,INCLUDE,T5,IN
+CMB_1a,Sydney Trains,T5,Richmond to Leppington,T5 Cumberland Line,2,INCLUDE,T5,IN
+RTTA_DEF,Sydney Trains,,Out Of Service,,2,EXCLUDE,,
+ESI_1d,Sydney Trains,T4,Bondi Junction to Cronulla,T4 Eastern Suburbs & Illawarra Line,2,INCLUDE,T4,OUT
+ESI_1a,Sydney Trains,T4,Bondi Junction to Waterfall,T4 Eastern Suburbs & Illawarra Line,2,INCLUDE,T4,OUT
+ESI_1e,Sydney Trains,T4,City Circle to Cronulla,T4 Eastern Suburbs & Illawarra Line,2,INCLUDE,T4,OUT
+ESI_1f,Sydney Trains,T4,City Circle to Cronulla,T4 Eastern Suburbs & Illawarra Line,2,INCLUDE,T4,OUT
+ESI_1b,Sydney Trains,T4,City Circle to Waterfall,T4 Eastern Suburbs & Illawarra Line,2,INCLUDE,T4,OUT
+ESI_1c,Sydney Trains,T4,City Circle to Waterfall,T4 Eastern Suburbs & Illawarra Line,2,INCLUDE,T4,OUT
+ESI_2d,Sydney Trains,T4,Cronulla to Bondi Junction,T4 Eastern Suburbs & Illawarra Line,2,INCLUDE,T4,IN
+ESI_2e,Sydney Trains,T4,Cronulla to City Circle,T4 Eastern Suburbs & Illawarra Line,2,INCLUDE,T4,IN
+ESI_2f,Sydney Trains,T4,Cronulla to City Circle,T4 Eastern Suburbs & Illawarra Line,2,INCLUDE,T4,IN
+ESI_2a,Sydney Trains,T4,Waterfall to Bondi Junction,T4 Eastern Suburbs & Illawarra Line,2,INCLUDE,T4,IN
+ESI_2b,Sydney Trains,T4,Waterfall to City Circle,T4 Eastern Suburbs & Illawarra Line,2,INCLUDE,T4,IN
+ESI_2c,Sydney Trains,T4,Waterfall to City Circle,T4 Eastern Suburbs & Illawarra Line,2,INCLUDE,T4,IN
+HUN_2a,NSWTrains,HUN,Dungog to Newcastle via Maitland,Hunter Line,2,INCLUDE,HUN,IN
+HUN_1a,NSWTrains,HUN,Newcastle to Dungog via Maitland,Hunter Line,2,INCLUDE,HUN,OUT
+HUN_1b,NSWTrains,HUN,Newcastle to Scone via Maitland,Hunter Line,2,INCLUDE,HUN,OUT
+HUN_2b,NSWTrains,HUN,Scone to Newcastle via Maitland,Hunter Line,2,INCLUDE,HUN,IN
+IWL_2i,Sydney Trains,T2,Campbelltown to City Circle via Granville,T2 Inner West & Leppington Line,2,INCLUDE,T2,IN
+IWL_2j,Sydney Trains,T2,Campbelltown toCity Circle via Granville,T2 Inner West & Leppington Line,2,INCLUDE,T2,IN
+IWL_1i,Sydney Trains,T2,City Circle to Campbelltown via Granville,T2 Inner West & Leppington Line,2,INCLUDE,T2,OUT
+IWL_1j,Sydney Trains,T2,City Circle to Campbelltown via Granville,T2 Inner West & Leppington Line,2,INCLUDE,T2,OUT
+IWL_1g,Sydney Trains,T2,City Circle to Leppington via Bankstown,T2 Inner West & Leppington Line,2,INCLUDE,T2,OUT
+IWL_1h,Sydney Trains,T2,City Circle to Leppington via Bankstown,T2 Inner West & Leppington Line,2,INCLUDE,T2,OUT
+IWL_1c,Sydney Trains,T2,City Circle to Leppington via Granville,T2 Inner West & Leppington Line,2,INCLUDE,T2,OUT
+IWL_1d,Sydney Trains,T2,City Circle to Leppington via Granville,T2 Inner West & Leppington Line,2,INCLUDE,T2,OUT
+IWL_1e,Sydney Trains,T2,City Circle to Leppington via Regents Park,T2 Inner West & Leppington Line,2,INCLUDE,T2,OUT
+IWL_1f,Sydney Trains,T2,City Circle to Leppington via Regents Park,T2 Inner West & Leppington Line,2,INCLUDE,T2,OUT
+IWL_1a,Sydney Trains,T2,City Circle to Parramatta,T2 Inner West & Leppington Line,2,INCLUDE,T2,OUT
+IWL_1b,Sydney Trains,T2,City Circle to Parramatta,T2 Inner West & Leppington Line,2,INCLUDE,T2,OUT
+IWL_2g,Sydney Trains,T2,Leppington to City Circle via Bankstown,T2 Inner West & Leppington Line,2,INCLUDE,T2,IN
+IWL_2h,Sydney Trains,T2,Leppington to City Circle via Bankstown,T2 Inner West & Leppington Line,2,INCLUDE,T2,IN
+IWL_2c,Sydney Trains,T2,Leppington to City Circle via Granville,T2 Inner West & Leppington Line,2,INCLUDE,T2,IN
+IWL_2d,Sydney Trains,T2,Leppington to City Circle via Granville,T2 Inner West & Leppington Line,2,INCLUDE,T2,IN
+IWL_2e,Sydney Trains,T2,Leppington to City Circle via Regents Park,T2 Inner West & Leppington Line,2,INCLUDE,T2,IN
+IWL_2f,Sydney Trains,T2,Leppington to City Circle via Regents Park,T2 Inner West & Leppington Line,2,INCLUDE,T2,IN
+IWL_2a,Sydney Trains,T2,Parramatta to City Circle,T2 Inner West & Leppington Line,2,INCLUDE,T2,OUT
+IWL_2b,Sydney Trains,T2,Parramatta to City Circle,T2 Inner West & Leppington Line,2,INCLUDE,T2,IN
+NSN_2a,Sydney Trains,T1,Berowra and Hornsby to City,T1 Northern & North Shore Line,2,INCLUDE,T1-N,IN
+NSN_1j,Sydney Trains,T1,Berowra to City,T1 Northern & North Shore Line,2,INCLUDE,T1-N,IN
+NSN_1i,Sydney Trains,T1,Berowra to City,T1 Northern & North Shore Line,2,INCLUDE,T1-N,IN
+NSN_1k,Sydney Trains,T1,Berowra to City,T1 Northern & North Shore Line,2,INCLUDE,T1-N,IN
+NSN_1l,Sydney Trains,T1,Berowra to City,T1 Northern & North Shore Line,2,INCLUDE,T1-N,IN
+NSN_1d,Sydney Trains,T1,City to Epping via Macquarie University,T1 Northern & North Shore Line,2,INCLUDE,T1-N,OUT
+NSN_1a,Sydney Trains,T1,City to Hornsby and Berowra,T1 Northern & North Shore Line,2,INCLUDE,T1-N,OUT
+NSN_1b,Sydney Trains,T1,City to Hornsby via Macquarie Park,T1 Northern & North Shore Line,2,INCLUDE,T1-N,OUT
+NSN_1g,Sydney Trains,T1,City to Hornsby via Macquarie Park,T1 Northern & North Shore Line,2,INCLUDE,T1-N,OUT
+NSN_1c,Sydney Trains,T1,City to Hornsby via Strathfield,T1 Northern & North Shore Line,2,INCLUDE,T1-N,OUT
+NSN_1h,Sydney Trains,T1,City to Hornsby via Strathfield,T1 Northern & North Shore Line,2,INCLUDE,T1-N,OUT
+NSN_2d,Sydney Trains,T1,Epping to City via Macquarie University,T1 Northern & North Shore Line,2,INCLUDE,T1-N,IN
+NSN_2b,Sydney Trains,T1,Hornsby to City via Macquarie Park,T1 Northern & North Shore Line,2,INCLUDE,T1-N,IN
+NSN_2c,Sydney Trains,T1,Hornsby to City via Strathfield,T1 Northern & North Shore Line,2,INCLUDE,T1-N,IN
+CTY_NC2,NSWTrains,NRC,Brisbane (Roma Street) to Sydney (Central),North Coast NSW Line,2,EXCLUDE,NRC,IN
+CTY_NC1,NSWTrains,NRC,Sydney (Central) to Brisbane (Roma Street),North Coast NSW Line,2,EXCLUDE,NRC,OUT
+CTY_NC1a,NSWTrains,NRC,Sydney (Central) to Brisbane (Roma Street),North Coast NSW Line,2,EXCLUDE,NRC,OUT
+CTY_NW2b,NSWTrains,NRW,Armidale to Sydney (Central),North Western NSW Line,2,EXCLUDE,NRW,IN
+CTY_NW2a,NSWTrains,NRW,Moree to Sydney (Central),North Western NSW Line,2,EXCLUDE,NRW,IN
+CTY_NW1b,NSWTrains,NRW,Sydney (Central) to Armidale,North Western NSW Line,2,EXCLUDE,NRW,OUT
+CTY_NW1d,NSWTrains,NRW,Sydney (Central) to Armidale,North Western NSW Line,2,EXCLUDE,NRW,OUT
+CTY_NW1a,NSWTrains,NRW,Sydney (Central) to Moree,North Western NSW Line,2,EXCLUDE,NRW,OUT
+CTY_NW1c,NSWTrains,NRW,Sydney (Central) to Moree,North Western NSW Line,2,EXCLUDE,NRW,OUT
+CTY_S2a,NSWTrains,STH,Canberra to Sydney (Central),Southern NSW Line,2,EXCLUDE,STH,IN
+CTY_S2b,NSWTrains,STH,Canberra to Sydney (Central),Southern NSW Line,2,EXCLUDE,STH,IN
+CTY_S2c,NSWTrains,STH,Canberra to Sydney (Central),Southern NSW Line,2,EXCLUDE,STH,IN
+CTY_S2d,NSWTrains,STH,Griffith to Sydney (Central),Southern NSW Line,2,EXCLUDE,STH,IN
+CTY_S2e,NSWTrains,STH,Griffith to Sydney (Central),Southern NSW Line,2,EXCLUDE,STH,IN
+CTY_S2f,NSWTrains,STH,Griffith to Sydney (Central),Southern NSW Line,2,EXCLUDE,STH,IN
+CTY_S2g,NSWTrains,STH,Melbourne (Southern Cross) to Sydney (Central),Southern NSW Line,2,EXCLUDE,STH,IN
+CTY_S2h,NSWTrains,STH,Melbourne (Southern Cross) to Sydney (Central),Southern NSW Line,2,EXCLUDE,STH,IN
+CTY_S2i,NSWTrains,STH,Melbourne (Southern Cross) to Sydney (Central),Southern NSW Line,2,EXCLUDE,STH,IN
+CTY_S1a,NSWTrains,STH,Sydney (Central) to Canberra,Southern NSW Line,2,EXCLUDE,STH,OUT
+CTY_S1b,NSWTrains,STH,Sydney (Central) to Canberra,Southern NSW Line,2,EXCLUDE,STH,OUT
+CTY_S1c,NSWTrains,STH,Sydney (Central) to Canberra,Southern NSW Line,2,EXCLUDE,STH,OUT
+CTY_S1d,NSWTrains,STH,Sydney (Central) to Griffith,Southern NSW Line,2,EXCLUDE,STH,OUT
+CTY_S1e,NSWTrains,STH,Sydney (Central) to Griffith,Southern NSW Line,2,EXCLUDE,STH,OUT
+CTY_S1f,NSWTrains,STH,Sydney (Central) to Griffith,Southern NSW Line,2,EXCLUDE,STH,OUT
+CTY_S1g,NSWTrains,STH,Sydney (Central) to Melbourne,Southern NSW Line,2,EXCLUDE,STH,OUT
+CTY_S1h,NSWTrains,STH,Sydney (Central) to Melbourne (Southern Cross),Southern NSW Line,2,EXCLUDE,STH,OUT
+CTY_S1i,NSWTrains,STH,Sydney (Central) to Melbourne (Southern Cross),Southern NSW Line,2,EXCLUDE,STH,OUT
+CTY_W2b,NSWTrains,WST,Broken Hill to Sydney (Central),Western NSW Line,2,EXCLUDE,WST,IN
+CTY_W2a,NSWTrains,WST,Dubbo to Sydney (Central),Western NSW Line,2,EXCLUDE,WST,In
+CTY_W1b,NSWTrains,WST,Sydney (Central) to Broken Hill,Western NSW Line,2,EXCLUDE,WST,OUT
+CTY_W1a,NSWTrains,WST,Sydney (Central) to Dubbo,Western NSW Line,2,EXCLUDE,WST,OUT
+NTH_1,Sydney Trains,T1,City to Epping via Strathfield,T1 Northern Line,2,INCLUDE,T1-E,OUT
+NTH_2,Sydney Trains,T1,Epping to City via Strathfield,T1 Northern Line,2,INCLUDE,T1-E,IN
+OLY_2b,Sydney Trains,T7,Blacktown to Olympic Park,T7 Olympic Park Line,2,INCLUDE,T7,IN
+OLY_1a,Sydney Trains,T7,Central to Olympic Park,T7 Olympic Park Line,2,INCLUDE,T7,IN
+OLY_1b,Sydney Trains,T7,Olympic Park to Blacktown,T7 Olympic Park Line,2,INCLUDE,T7,OUT
+OLY_2a,Sydney Trains,T7,Olympic Park to Central,T7 Olympic Park Line,2,INCLUDE,T7,OUT
+RTTA_REV,Sydney Trains,,Non revenue,,2,EXCLUDE,,
+SCO_2a,NSWTrains,SCO,Bomaderry to Central and Bondi Junction,South Coast Line,2,INCLUDE,SCO,IN
+SCO_1a,NSWTrains,SCO,Bondi Junction and Central to Bomaderry ,South Coast Line,2,INCLUDE,SCO,OUT
+SCO_1b,NSWTrains,SCO,Bondi Junction and Central to Port Kembla,South Coast Line,2,INCLUDE,SCO,OUT
+SCO_2b,NSWTrains,SCO,Port Kembla to Central and Bondi Junction,South Coast Line,2,INCLUDE,SCO,IN
+SHL_1e,NSWTrains,SHL,Campbelltown to Goulburn,Southern Highlands Line,2,INCLUDE,SHL,OUT
+SHL_1c,NSWTrains,SHL,Central to Campbelltown and Goulburn via Airport,Southern Highlands Line,2,INCLUDE,SHL,OUT
+SHL_1d,NSWTrains,SHL,Central to Campbelltown and Goulburn via East Hills and Sydenham,Southern Highlands Line,2,INCLUDE,SHL,OUT
+SHL_1a,NSWTrains,SHL,Central to Campbelltown and Goulburn via Granville,Southern Highlands Line,2,INCLUDE,SHL,OUT
+SHL_1b,NSWTrains,SHL,Central to Campbelltown and Goulburn via Regents Park,Southern Highlands Line,2,INCLUDE,SHL,OUT
+SHL_2e,NSWTrains,SHL,Goulburn to Campbelltown,Southern Highlands Line,2,INCLUDE,SHL,IN
+SHL_2c,NSWTrains,SHL,Goulburn to Campbelltown and Central via Airport,Southern Highlands Line,2,INCLUDE,SHL,IN
+SHL_2d,NSWTrains,SHL,Goulburn to Campbelltown and Central via East Hills and Sydenham,Southern Highlands Line,2,INCLUDE,SHL,IN
+SHL_2a,NSWTrains,SHL,Goulburn to Campbelltown and Central via Granville,Southern Highlands Line,2,INCLUDE,SHL,IN
+SHL_2b,NSWTrains,SHL,Goulburn to Campbelltown and Central via Regents Park,Southern Highlands Line,2,INCLUDE,SHL,IN
+WST_1a,Sydney Trains,T1,City to Emu Plains,T1 Western Line,2,INCLUDE,T1-W,OUT
+WST_1b,Sydney Trains,T1,City to Richmond,T1 Western Line,2,INCLUDE,T1-W,OUT
+WST_2c,Sydney Trains,T1,Emu Plains to City ,T1 Western Line,2,INCLUDE,T1-W,IN
+WST_2a,Sydney Trains,T1,Emu Plains to City ,T1 Western Line,2,INCLUDE,T1-W,IN
+WST_2d,Sydney Trains,T1,Richmond to City ,T1 Western Line,2,INCLUDE,T1-W,IN
+WST_2b,Sydney Trains,T1,Richmond to City ,T1 Western Line,2,INCLUDE,T1-W,IN
